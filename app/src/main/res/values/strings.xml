@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CyReborn 4.0</string>
+    <!--<string name="form">DATA MAHASISWA</string>-->
+    <!--<string name="result">BIODATA MAHASISWA</string>-->
+    <string name="nama">Nama Lengkap</string>
+    <string name="asal">Asal Sekolah</string>
+    <string name="no">No HP</string>
+    <string name="alamat">Alamat</string>
+    <string name="kelompok">Kelompok</string>
+    <string name="kelas">Reguler</string>
+    <string name="project">BIODATA PESERTA</string>
+</resources>

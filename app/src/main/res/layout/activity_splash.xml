@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".splash">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.307"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="0dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="0dp"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginEnd="0dp"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:fontFamily="@font/robotobold"-->
+            <!--android:text="@string/judul"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@color/color5"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:src="@drawable/qr" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/robotobold"-->
+            <!--android:text="@string/ikmi"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@color/color5"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/robotolight"-->
+            <!--android:text="Development by: "-->
+            <!--android:layout_marginLeft="170sp"-->
+            <!--android:textColor="@color/color5"-->
+            <!--android:textSize="14sp"-->
+            <!--/>-->
+        <!--<ImageView-->
+            <!--android:layout_width="170dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:background="@drawable/logo"-->
+            <!--android:layout_marginLeft="170sp"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

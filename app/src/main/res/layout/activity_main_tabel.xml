@@ -1,0 +1,286 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bground"
+    tools:context=".MainActivityTabel" >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="REGISTRASI PKKMB"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/robotobold"
+                    android:textColor="@color/headertext"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="60dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/id_peserta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nama"
+                        android:textSize="16dp"
+                        android:textColor="@color/maintext"
+                        android:fontFamily="@font/robotolight"
+
+                        />
+                    <EditText
+                        android:id="@+id/etextViewNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="10dp"
+                        android:fontFamily="@font/robotolight"
+                        android:inputType="text"
+                        android:textSize="15sp"
+                        android:hint="Masukan Nama Lengkap"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alamat"
+                        android:textSize="16dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/maintext"
+                        android:fontFamily="@font/robotolight"
+
+                        />
+                    <EditText
+                        android:id="@+id/etextViewAlamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="10dp"
+                        android:fontFamily="@font/robotolight"
+                        android:inputType="text"
+                        android:textSize="15sp"
+                        android:hint="Masukan Alamat"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/asal"
+                        android:textSize="16dp"
+                        android:textColor="@color/maintext"
+                        android:fontFamily="@font/robotolight"
+
+                        />
+                    <EditText
+                        android:id="@+id/etextViewAsal"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="10dp"
+                        android:fontFamily="@font/robotolight"
+                        android:inputType="text"
+                        android:textSize="15sp"
+                        android:hint="SMK / SMA"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotolight"
+                        android:text="@string/no"
+                        android:textColor="@color/maintext"
+                        android:textSize="18dp"
+
+                        />
+                    <EditText
+                        android:id="@+id/etextViewNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="10dp"
+                        android:fontFamily="@font/robotolight"
+                        android:inputType="number"
+                        android:textSize="15sp"
+                        android:hint="081 XXX"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kelompok" />
+
+                    <Spinner
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etextViewKelompok"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kelas" />
+
+                    <Spinner
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etextViewReguler"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/buttonAdd"
+                        android:layout_width="280dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_button"
+                        android:textColor="@color/text_btn"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="GENERATE QR"/>
+
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/generate"
+                        android:layout_width="280dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_button"
+                        android:textColor="@color/text_btn"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        android:text="RESET"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                <!--<EditText-->
+            <!--android:id="@+id/id_peserta"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="ID"-->
+            <!--android:visibility="gone"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Nama" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewNama"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Asal Sekolah" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewAsal"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Alamat" />-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewAlamat"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+        <!--<TextView-->
+            <!--android:text="No Handphone"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewNo"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Kelompok" />-->
+
+        <!--<Spinner-->
+            <!--android:gravity="left"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewKelompok"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Reguler" />-->
+
+        <!--<Spinner-->
+            <!--android:gravity="left"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/etextViewReguler"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="SAVE"-->
+            <!--android:id="@+id/buttonAdd" />-->
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="RESET"-->
+                    <!--android:id="@+id/generate" />-->
+
+
+        </LinearLayout>
+</LinearLayout>

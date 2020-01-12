@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="headertext">#0E00D6</color>
+    <color name="headersave">#5ED314</color>
+    <color name="text_btn">#FFFFFF</color>
+    <color name="text">#BEB6B6</color>
+    <color name="maintext">#5A5959</color>
+    <color name="colorbar">#57B0D9</color>
+    <color name="color1">#95DDE7FF</color>
+    <color name="color2">#1660F7</color>
+    <color name="color3">#0227F0</color>
+    <color name="color4">#D2949DB4</color>
+    <color name="color5">#F3040092</color>
+    <color name="color6">#F3FFFFFF</color>
+    <color name="cardColor">#ffffff</color>
+
+
+
+</resources>
+

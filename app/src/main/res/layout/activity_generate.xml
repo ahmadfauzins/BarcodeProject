@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    tools:context=".Generate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/noteqr2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="@color/headertext"
+                    android:fontFamily="@font/robotobold"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/project" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robotolight"
+                    android:text="@string/nama"
+                    android:textSize="14dp" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvAsal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:fontFamily="@font/robotolight"-->
+                    <!--android:text="@string/nama"-->
+                    <!--android:textSize="14dp" />-->
+
+                <TextView
+                    android:id="@+id/tvAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotolight"
+                    android:text="@string/alamat"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tvNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotolight"
+                    android:text="@string/no"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tvKelompok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotolight"
+                    android:text="@string/kelompok"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/tvReguler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotolight"
+                    android:text="@string/kelas"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="355dp"
+                android:layout_height="273dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="274dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+
+            <Button
+                android:id="@+id/simpan"
+                android:onClick="onClick"
+                android:layout_width="204dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_save"
+                android:fontFamily="@font/robotobold"
+                android:text="SIMPAN QR CODE"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

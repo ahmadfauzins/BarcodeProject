@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/bground"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wilujeng Sumping"
+        android:textSize="35sp"
+        android:fontFamily="@font/robotolight"
+        android:textColor="@color/color5"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/logokominfo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pkkmb"
+        />
+    <TextView
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABSENSI KU&amp;PKKMB IKMI 2019"
+        android:textSize="25sp"
+        android:textColor="@color/color5"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@drawable/bg_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color6"
+        />
+    <!--<Button-->
+        <!--android:id="@+id/btnRegisLogin"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/btnRegis"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:background="@drawable/button"-->
+        <!--android:textColor="@color/color6"-->
+        <!--/>-->
+</LinearLayout>

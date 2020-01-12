@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".Absen">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Inputkan Nama : "/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/edtValue"-->
+        <!--android:hint="Masukan Nama untuk Di Generate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/start"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="GENERATE CODE"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/save"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SAVE QR CODE"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/scann"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SCAN QR CODE"-->
+        <!--/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Name" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewNama"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="nama disini"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Tinggi" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewTinggi"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="tinggi disini"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="500dp">-->
+        <!--<ImageView-->
+            <!--android:layout_marginTop="-50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:id="@+id/qrImage"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent" android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" tools:context=".Absen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Barang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNomor"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNama"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Barang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewJenis"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/text_btn"
+            android:id="@+id/buttonAdd" />
+        <Button
+            android:id="@+id/buttonScan"
+            android:paddingTop="30dp"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/text_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Scan QR Code" />
+
+
+        <Button
+            android:background="@drawable/bg_button"
+            android:textColor="@color/text_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tabel"
+            android:id="@+id/buttonTabel" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
